@@ -34,4 +34,6 @@ var clearEntries = () => {
 document.addEventListener("DOMContentLoaded", () => {
     $("#calculate").addEventListener("click", processEntries);
     $("#miles").focus();
+    $("#clear").addEventListener("click", clearEntries);
+    $("#miles").focus();
 });
